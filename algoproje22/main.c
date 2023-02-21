@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 #include <time.h>
-//ESRANUR SEVILMIS-20360859026
+//ESRANUR SEVILMIS-OKUL PROJESI
 
 //PROGRAMIMIZDA KULLANACAGIMIZ GEREKLI FONKSIYON TANIMLARI\\
 
@@ -118,7 +118,7 @@ void ogrencileri_puanla(char ogrenci_cevaplari[ ][100], char cevap_anahtari[ ], 
             count=0.0; //count her ogrenci icin sifirlanir.
         for(int j=0;j<S;j++){
                if(ogrenci_cevaplari[j][i]==cevap_anahtari[j])
-                HBN[i]+=soru_degeri; //her dogru cevapta ogrencinin basari notu soru degeri kadar artýrýlýr.
+                HBN[i]+=soru_degeri; //her dogru cevapta ogrencinin basari notu soru degeri kadar artÄ±rÄ±lÄ±r.
                 else if(ogrenci_cevaplari[j][i]=='X')
                     HBN[i]+=0.0; //bos cevaplar puana etki etmiyor.
                else
@@ -171,7 +171,7 @@ void T_skoru_hesapla(double ortalama, double HBN[ ], int N, double std, double T
 }
 
 void tablo(double ortalama,double T_skoru[ ],int N,double h_notu[ ])
-{ //tablodaki verilere gore once sinif ortalamasiyla sinif duzeyi ardýndan sinif duzeyine gore de harf notu hesaplanilan fonksiyon cagrildi.
+{ //tablodaki verilere gore once sinif ortalamasiyla sinif duzeyi ardÄ±ndan sinif duzeyine gore de harf notu hesaplanilan fonksiyon cagrildi.
   //fonksiyona tablodaki FF harf notunun sinir degerini parametre olarak yolladik(sinif duzeyine gore).
     if(ortalama<=42.5){
         printf("Kotu");
