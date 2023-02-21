@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//ICI BOS PARALELKENAR 
 int main()
 {
     {
